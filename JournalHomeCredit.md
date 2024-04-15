@@ -49,3 +49,18 @@ One-hot encoding and label encoding are both techniques used to convert categori
        - 'High': 2
 
 In summary, the main difference between one-hot encoding and label encoding lies in the representation of categorical variables: one-hot encoding creates binary features for each category, while label encoding assigns integer labels to categories. The choice between these techniques depends on the nature of the categorical variable and the requirements of the machine learning algorithm being used.
+
+## **3.Difference between regression and classification.**
+Regression and classification are two fundamental types of supervised machine learning tasks, but they have different objectives and output types. Here's a breakdown of the key differences between them:
+
+1. **Objective:**
+   - Regression: In regression, the goal is to predict a continuous target variable(variable that can take on an infinite number of values within a certain range). The output is a real-valued number that represents a quantity, such as price, temperature, or length. Regression models aim to find the relationship between input features and the target variable, allowing predictions of unseen data points.
+   - Classification: In classification, the goal is to predict the category or class to which a data point belongs. The output is a discrete label or class that represents a category, such as "spam" or "not spam," "cat" or "dog," or "positive" or "negative." Classification models learn to distinguish between different classes based on input features.
+3. **Examples:**
+   - Regression: Predicting house prices based on features like size, location, and number of bedrooms; forecasting stock prices based on historical data; estimating the temperature based on weather variables.
+   - Classification: Classifying emails as spam or not spam based on their content; recognizing handwritten digits (0-9) in images; diagnosing diseases based on patient symptoms.
+
+In summary, regression is used to predict continuous numerical values, while classification is used to predict discrete class labels. The choice between regression and classification depends on the nature of the target variable and the problem domain.
+
+## 4.
+
